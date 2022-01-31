@@ -1,5 +1,5 @@
 ##### Lab week 3 - sampling and confidence intervals ####
-### Area Studies - TA: Cora ###
+### Area Studies - TA: Cora Neuman ###
 
 # Calling packages and options ----
 library(readr)
