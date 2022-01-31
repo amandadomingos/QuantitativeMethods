@@ -18,21 +18,21 @@
   # Mean, Median and Standard deviation (1985, 1999, and 2016)
     fertility_literacy %>%
       filter(Year == "1985") %>% 
-      mutate(mean_85 = mean(Fertility, na.rm = T),
-             median_85 = median(Fertility, na.rm = T),
-             sd_85 = sd(Fertility, na.rm = T))
+      mutate(mean_85 = mean(Literacy, na.rm = T),
+             median_85 = median(Literacy, na.rm = T),
+             sd_85 = sd(Literacy, na.rm = T))
     
     fertility_literacy %>%
       filter(Year == "1999") %>% 
-      mutate(mean_99 = mean(Fertility, na.rm = T),
-             median_99 = median(Fertility, na.rm = T),
-             sd_99 = sd(Fertility, na.rm = T))
+      mutate(mean_99 = mean(Literacy, na.rm = T),
+             median_99 = median(Literacy, na.rm = T),
+             sd_99 = sd(Literacy, na.rm = T))
     
     fertility_literacy %>%
       filter(Year == "2016") %>% 
-      mutate(mean_16 = mean(Fertility, na.rm = T),
-             median_16 = median(Fertility, na.rm = T),
-             sd_16 = sd(Fertility, na.rm = T))
+      mutate(mean_16 = mean(Literacy, na.rm = T),
+             median_16 = median(Literacy, na.rm = T),
+             sd_16 = sd(Literacy, na.rm = T))
     
 # Descriptive statistics: Fertility -----
   
