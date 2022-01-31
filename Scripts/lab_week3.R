@@ -1,4 +1,4 @@
-##### Lab week 2 - probability and z-scores ####
+##### Lab week 3 - sampling and confidence intervals ####
 ### Area Studies - TA: Cora ###
 
 # Calling packages and options ----
